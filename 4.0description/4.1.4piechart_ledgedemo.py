@@ -17,10 +17,10 @@ wedges, texts, autotexts = plt.pie(weight, autopct="%3.1f%%",  # 数值百分比
                                    textprops=dict(color="w"),
                                    colors=colors)  # 颜色
 # 设置图例
-plt.legend(wedges, element, fontsize=12,
-           title="配料表",
-           loc="center left",
-           bbox_to_anchor=(0.91, 0, 0.3, 1))
+plt.legend(wedges, element, fontsize=12,  # 字体尺寸
+           title="配料表",  # 图例标题
+           loc="center left",  # 从左边的中间
+           bbox_to_anchor=(0.91, 0, 0.3, 1))  # 四分位的位置
 
 plt.setp(autotexts, size=15, weight="bold")
 plt.setp(texts, size=12)
