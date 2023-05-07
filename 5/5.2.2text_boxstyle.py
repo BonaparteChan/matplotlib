@@ -15,9 +15,9 @@ plt.plot(x, y, ls="-", lw=2,
 plt.grid(ls=":", color="gray", alpha=0.5)
 
 plt.text(6, 0, "Matplotlib", size=30, rotation=30.,
-         bbox=dict(boxstyle="round", ec="#8968cd", fc="#ffe1ff"))
+         bbox=dict(boxstyle="round", ec="#8968cd", fc="#ffe1ff"))  # round 圆角矩形
 
-# plt.text(6, 0, "Matplotlib", size=30, rotation=30.,
-#         bbox=dict(boxstyle="square", ec="#8968cd", fc="#ffe1ff"))
+# plt.text(6, 0, "Matplotlib", size=30, rotation=30., bbox=dict(boxstyle="square", ec="#8968cd", fc="#ffe1ff"))
+# square 直角
 
 plt.show()
