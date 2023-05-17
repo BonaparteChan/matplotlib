@@ -25,8 +25,8 @@ x = np.linspace(0, 2 * np.pi, 500)
 y = np.sin(x) * np.exp(-x)
 
 # create just a figure and only one subplot 创建一个画布一个子区
-fig, ax = plt.subplots(1, 2, sharey=True)  # 横排；sharex-> 竖排
-# fig, ax = plt.subplots(2, 1, sharex=True)  # 横排；sharex-> 竖排
+fig, ax = plt.subplots(1, 2, sharey=True)  # 横排；sharex-> 竖排，表示子区 1 和子区 2 共享 y 坐标轴
+# fig, ax = plt.subplots(2, 1, sharex=True)  # 横排；sharex-> 竖排，表示子区 1 和子区 2 共享 x 坐标轴
 
 # 使用 subplots_adjust(*agrs, *kwargs) 对空间进行控制
 # left、right、bottom、top、hspace、wspace 均有默认值

@@ -45,7 +45,7 @@ ax[0, 2].set_ylim(-1.1, 1.1)
 
 # subplot(234) 2 行 3 列第四个图形
 x4 = np.linspace(0, 2 * np.pi, 500)
-x4_1 = np.linspace(1, 2 * np.pi, 1000)
+x4_1 = np.linspace(0, 2 * np.pi, 1000)
 y4 = np.cos(x4) * np.exp(-x4)
 y4_1 = np.sin(2 * x4_1)
 # 设置简单的数据
