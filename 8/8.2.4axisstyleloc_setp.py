@@ -16,8 +16,8 @@ fig = plt.figure()
 ax = fig.add_axes([.2, .2, .7, .7])
 ax.spines["bottom"].set_position(("outward", 10))  # 轴脊向下移动 10 个距离点
 ax.spines["left"].set_position(("outward", 10))  # 轴脊向左移动 10 个距离点
-ax.spines["top"].set_color("pink")  # 设置顶部轴脊颜色为粉红色，红色太显眼了
-ax.spines["right"].set_color("none")
+ax.spines["top"].set_color("none")  # 设置顶部轴脊颜色为粉红色，红色太显眼了
+ax.spines["right"].set_color("pink")
 
 # set some simple data 设置简单数据
 x = np.arange(1, 8, 1)
