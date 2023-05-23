@@ -17,6 +17,7 @@ ax1.spines["right"].set_color("none")  # 保留刻度线，去掉右边框
 ax1.spines["top"].set_color("none")  # 保留刻度线，去掉顶边框
 ax1.set_xlim(-2 * np.pi, 2 * np.pi)
 ax1.set_ylim(-1.2, 1.2)
+ax1.margins(0.2)  # 设置数据范围的空白区域
 plt.title(r"$a$", y=-0.2, loc="left")
 plt.scatter(x, y, marker="+", color="b")  # 绘制散点图
 
@@ -28,6 +29,7 @@ ax2.spines["top"].set_color("none")  # 去掉顶边框
 ax2.xaxis.set_ticks_position("bottom")  # 去掉顶边框的刻度线
 ax2.set_xlim(-2 * np.pi, 2 * np.pi)
 ax2.set_ylim(-1.2, 1.2)
+ax2.margins(1)  # 设置数据范围的空白区域
 plt.title(r"$b$", y=-0.2, loc="right")
 plt.scatter(x, y, marker="+", color="b")  # 绘制散点图
 
@@ -39,6 +41,7 @@ ax3.spines["top"].set_color("none")
 ax3.yaxis.set_ticks_position("left")
 ax3.set_xlim(-2 * np.pi, 2 * np.pi)
 ax3.set_ylim(-1.2, 1.2)
+ax3.margins(0.2)  # 设置数据范围的空白区域
 plt.title(r"$c$", loc="right", y=-0.2)
 plt.scatter(x, y, marker="+", color="b")  # 绘制散点图
 
@@ -51,6 +54,7 @@ ax4.xaxis.set_ticks_position("bottom")
 ax4.yaxis.set_ticks_position("left")
 ax4.set_xlim(-2 * np.pi, 2 * np.pi)
 ax4.set_ylim(-1.2, 1.2)
+ax4.margins(0.5)  # 设置数据范围的空白区域
 plt.title(r"$d$", loc="left", y=-0.2)
 plt.scatter(x, y, marker="+", color="b")  # 绘制散点图
 

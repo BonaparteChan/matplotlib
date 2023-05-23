@@ -41,8 +41,8 @@ ax.spines["right"].set_color("none")
 ax.spines["top"].set_color("none")
 
 # 关键代码，将坐标轴移动到 0 的位置，中间
-ax.spines["bottom"].set_position(("data", 0))
-ax.spines["left"].set_position(("data", 0))
+ax.spines["bottom"].set_position(("data", 0))  # 将底部轴脊移动到数据为 0 的位置
+ax.spines["left"].set_position(("data", 0))  # 将左边轴脊移动到数据为 0 的位置
 
 ax.xaxis.set_ticks_position("bottom")
 ax.yaxis.set_ticks_position("left")
