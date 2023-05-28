@@ -8,6 +8,6 @@ plt.title("Line Chart")
 
 # Add text in string ‘FONT’ to axis at location 'x', 'y', data
 # coordinates
-plt.text(2.25, .8, "FONT")
+plt.text(2.25, 0.8, "FONT")
 
 plt.show()
