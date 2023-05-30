@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
 
-plt.axes([], frameon=True, facecolor="y", aspect="equal")
+plt.axes([.1, .1, .8, .8], frameon=True, facecolor="y", aspect="equal")
 plt.plot(2 + np.arange(3), [0.1, 0])
 plt.title("Line Chart")
 
